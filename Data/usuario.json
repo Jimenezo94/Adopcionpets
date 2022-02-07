@@ -1,0 +1,16 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Juan",
+      "apellido": "Mendez",
+      "correo": "juanMdz@gmail.com",
+      "favoritos": [
+        {
+          "id": 6,
+          "tipo": "perro"
+        }
+      ]
+    }
+  ]
+}
