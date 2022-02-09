@@ -22,7 +22,7 @@ let btnCategoria2 = document.getElementById('btnCategory2')
                         <div class="card-img-overlay">
                                 <h5 class="card-title body2Bold">${nombre}</h5>
                                 <p class="card-text body2Regular">${raza}</p>
-                               <button id=${id} class="btn btn-outline-dark perros" style="background-color: #db7;">Detail</button>
+                               <button id=${id} class="btn btn-outline-dark perros" style="background-color:#A786DF;">Detail</button>
     
                         </div>
                     </div>
