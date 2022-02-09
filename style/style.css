@@ -1,5 +1,5 @@
-body{
-	background-color:#FEC7D7;
+body {
+	background-color: #FEC7D7;
 }
 
 /* div {
@@ -10,13 +10,11 @@ body{
 
 
 /*footer*/
-
-
-
- .btn-categoria{
+.btn-categoria {
 	border-radius: 25px;
 	border: 2px solid;
-	background-color: #0E172C; /* Green */
+	background-color: #0E172C;
+	/* Green */
 	border: none;
 	color: white;
 	padding: 15px 32px;
@@ -25,16 +23,47 @@ body{
 	display: inline-block;
 	margin: 4px 2px;
 	cursor: pointer;
- }
-  footer {
+}
+
+footer {
 	background: #f2f2f2;
-	padding: 20px;
+	padding:15px 40px 15px 40px;
 	overflow: hidden;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	margin: auto;
 	width: 100%;
-	}
+}
 
+.bloque {
+	max-width: 500px;
+	margin: auto;
+	padding: 2px 16px;
+}
+div > h3 , a {
+	display: flex;
+	justify-content:center;
+align-items:center;
+line-height:25px;
+
+   }
+.ImgAdopcion{
+	padding: 8px;
+	display: block;
+	margin:auto;
+}
+.fcc-btn{
 	
+		text-decoration:none;
+		font-weight: 400;
+		font-size: 20px;
+		color:#faf6f8;
+		padding:15px 40px 15px 40px;
+	
+		background-color:#0E172C;
+		border-color: #0E172C;
+	
+		border-radius:35px;
+		
+}
