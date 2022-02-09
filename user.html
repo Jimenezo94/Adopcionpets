@@ -9,9 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nunito" />
-    <link rel="stylesheet" href="styles/config.css">
-    <link rel="stylesheet" href="styles/user.css">
-    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="style/user.css">
+    <link rel="stylesheet" href="style/style.css">
+
 </head>
 
 <body>
@@ -28,46 +28,71 @@
         <!-- contenedor principal -->
         <div class="div-usuario">
             <!-- contenedor para ver los datos -->
+            <h1 class="Headline1">Perfil</h1>
+
             <div class="row usuario">
-                <h1 class="Headline1">Perfil</h1>
-                <img src="" alt="">
+                <img  class="img"src="./assests/Ellipse 10.png" alt="">
                 <h3>Juan Mendez</h3>
                 <h4>Editar cuenta</h4>
-                <div class="col datos">
-
-                </div>
+            
             </div>
             <!-- formulario -->
+            <div class="container">
             <form id="formulario">
                 <div class="campo">
                     <label for="name" class="form-label body1Regular label-edit">Nombre</label>
-                    <input id="name" name="name" class="ms-1 edit body1Regular form-control" type="text" placeholder="">
+                    <input id="name" name="name" class="ms-1" type="text" placeholder="Juan">
                 </div>
                 <div class="campo">
                     <label for="lastName" class="form-label body1Regular label-edit">Apellido</label>
-                    <input id="lastName" name="lastName" class="ms-1 edit body1Regular form-control" type="text"
-                        placeholder="">
+                    <input id="lastName" name="lastName" class="ms-1" type="text"
+                        placeholder="Mendez">
                 </div>
                 <div class="campo">
                     <label for="email" class="form-label body1Regular label-edit">Correo</label>
-                    <input id="email" name="email" class="ms-1 edit body1Regular form-control" type="text"
-                        placeholder="">
+                    <input id="email" name="email" class="ms-1" type="text"
+                        placeholder="Juan22@gmail.com">
                 </div>
-                <div class="campo">
+                <div class="campo style=display:none">
                     <label id="label-edit" for="id" class="form-label body1Regular label-edit">Id</label>
-                    <input id="id" name="id" class="ms-1 edit body1Regular form-control" type="text" placeholder=""
+                    <input id="id" name="id" class="ms-1" type="text" placeholder=""
                         readonly>
                 </div>
                 <!-- botones -->
                
                 <div class="">
                     <button id="btnEditar" type="button"
-                        class="btn btn-secondary buttom guardar-cambios">Guardar</button>
+                        class="btn buttom guardar-cambios"> 
+                        <p class="p-g">Guardar</p>
+                    
+                    
+                    
+                    </button>
                 </div>
            
             </form>
+            </div>
         </div>
     </main>
+
+    
+    <footer id="main">
+      
+
+     
+        <div>  <a href="index.html">  <img  class="icon" src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/55/000000/external-home-instagram-flatart-icons-outline-flatarticons.png"/></a> </div>
+        <div>  <a href="mensajes.html"> <img src="https://img.icons8.com/ios/55/000000/speech-bubble-with-dots.png"/></a></div>
+        <div> <a href="favoritos.html"> <img src="https://img.icons8.com/ios-glyphs/55/000000/hearts.png"/></a></div>
+            <div>   <a href="user.html"> <img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/55/000000/external-user-interface-kiranshastry-lineal-kiranshastry-1.png"/>
+          </a>
+        </div>
+       
+    
+
+
+</footer>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>

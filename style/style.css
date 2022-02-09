@@ -11,18 +11,8 @@ body{
 
 /*footer*/
 
-ul{
-	display:flex;
 
-}
-footer {
-	height:100%;
-	width: 100%;
-	background-color: white;
-	padding: 20px;
-	display: flex;
-	justify-content: space-around;
- }
+
  .btn-categoria{
 	border-radius: 25px;
 	border: 2px solid;
@@ -36,3 +26,15 @@ footer {
 	margin: 4px 2px;
 	cursor: pointer;
  }
+  footer {
+	background: #f2f2f2;
+	padding: 20px;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: auto;
+	width: 100%;
+	}
+
+	

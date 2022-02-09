@@ -1,0 +1,50 @@
+h1 {
+    font-weight: 400;
+    line-height: 1.2;
+   
+  }
+  
+  h3 {
+    font-size: 1.125rem;
+  }
+  
+  h1,
+ h3{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  .usuario{
+      display: flex;
+      text-align: center;
+  }
+
+ .img{
+     display:flex;
+     width: 210px;
+     height: 100%;
+     align-items: center!important;
+     justify-content: center!important;
+     display:block;
+     margin:auto;
+ }
+ input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  border-radius: 4px; 
+}
+#btnEditar{
+  border-radius: 50px 50px 50px 50px;
+  background-color: #0E172C; 
+  color: white;
+  padding: 20px; 
+  width: 320px;
+  display: flex;
+	margin: auto;
+}
+.p-g{
+margin: auto;
+
+}
