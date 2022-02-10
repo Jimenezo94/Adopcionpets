@@ -5,17 +5,22 @@ const getDetails = async () => {
   const { nombre, raza, imagen, id, tipo, descripcion } = informacion;
   console.log(id, tipo);
   listGroup.innerHTML += `
-   <div class="card" style="width: 8px;">
-    <img src=${imagen} class="card-img-top" alt="..." style="width: 1300px;>
-     <div class="info">
+   <div class="card";">
+    <img src=${imagen} class="card-img-top" alt="..." style="width: 450px;>
+     <div class="info profile-name">
     <h1 class="card-title">${nombre}</h1>
      <h3 class="card-text">${raza}</h3>
-     <p> class="descripcion">${descripcion}<p>
      </div>
  </div>
    `;
   let favoritoInicial = false;
   let imagenIcono = document.getElementById("icon-like");
+  let desc = document.getElementById('descripcion')
+  desc.innerHTML += `
+
+  <p class="descripcion">${descripcion}</p>
+  `
+
   let resp = await fetch("http://localhost:5000/usuarios");
   let dataUser = await resp.json();
 

@@ -6,9 +6,12 @@
       "apellido": "Mendez",
       "correo": "juanMdz@gmail.com",
       "favoritos": [
-      
         {
           "id": 2,
+          "tipo": "perro"
+        },
+        {
+          "id": 1,
           "tipo": "perro"
         },
         {
